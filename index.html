@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DEMO BOOTSTRAP</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="../Bootstrap/bootstrap-3.1.1-dist/starer-template.css" rel="stylesheet">
+    <link href="../Bootstrap/bootstrap-3.1.1-dist/dashboard.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/webslidemenu.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<header>
+    	<div class="top-bar">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-sm-12">
+                    	<div class="pull-left">
+                        	<div class="lang">
+                                <div class="btn-group">
+                                      <button type="button" class="btn btn-default dropdown-toggle no-border" data-toggle="dropdown">
+                                        English <span class="caret"></span>
+                                      </button>
+                                      <ul class="dropdown-menu no-border" role="menu">
+                                        <li><a href="#">Vietnamese</a></li>
+                                        <li><a href="#">Italian</a></li>
+                                      </ul>
+                                 </div>
+                             </div>
+                        </div>
+                        <div class="pull-right">
+                        	<ul class="list-unstyled top-links">
+                            	<li><a href="#">My Accout</a></li>
+                                <li><a href="#">Wishlist</a></li>
+                               	<li><a href="#">Check Out</a></li>
+                                <li><a href="#">Sign In</a></li>
+                                <li><a href="#">Create New Accout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End .top-bar -->
+        <div class="main-header">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-sm-4 search-w">
+                    	<div class="input-group">
+                          <input type="text" class="form-control">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                          </span>
+                        </div><!-- /input-group -->
+                    </div>
+                    <div class="col-sm-4">
+                    	<div class="logo text-center">
+   							<a href="#"><img src="img/logo.jpg" alt="logo"></a> 
+                       </div>
+                    </div>
+                    <div class="col-sm-4">
+                    	<div class="pull-right">
+                        	<div class="cart-wish-w">
+                            	<div class="cart-w">
+                                	<div class="cart-info">
+                                    	<span>
+                                        	<strong>0 items</strong>
+                                            <strong>0 quanlity</strong>
+                                        </span>
+                                        <a href="#" class="btn-cart">
+                                        	<i class="glyphicon glyphicon-shopping-cart"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="wishlist-w">
+                                	<div class="wishlist-info">
+                                    	<span>
+                                        	<strong>0 items</strong>
+                                        </span>
+                                        <a href="#" class="btn-cart">
+                                        	<i class="glyphicon glyphicon-heart"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End .main-header -->
+        <div class="main-nav">
+            <div class="container">
+                    <!--<div class="row">
+                    	<ul class="nav nav-pills">
+                            <li class="active"><a href="#"><i class="glyphicon glyphicon-home"></i> HOME</a></li>
+                            
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                             	CATEGORIES <i class="glyphicon glyphicon-chevron-down"></i>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Women</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="#">ABOUT US</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                         </ul>
+                    </div>-->
+                    <div class="row">
+							<div class="col-md-12">
+								<div class="menu-one">
+									<div id="Menu_center">
+										<div class="wsmenucontainer clearfix">
+										  <div class="overlapblackbg"></div>
+										  <div class="wsmobileheader clearfix"> 
+											<a id="wsnavtoggle" class="animated-arrow"><span></span></a>  
+										  </div>
+										  <div class="header">
+											
+											<nav class="wsmenu clearfix menu-mar-t-10">
+											  <ul class="mobile-sub wsmenu-list">
+												<li><a href="index.html">TRANG CHỦ</a></li>
+												<li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+												<li><span class="wsmenu-click">
+                                                <i class="wsmenu-arrow fa fa-angle-down">
+                                                </i>
+                                                </span><span class="wsmenu-click"><
+                                                i class="wsmenu-arrow fa fa-angle-down"></i></span><span class="wsmenu-click"></span><a href="#">DỊCH VỤ</a>
+												  <ul class="wsmenu-submenu">
+													<li><a href="#"><i class="fa fa-angle-right"></i>CÔNG TY</a></li>
+													<li><a href="#"><i class="fa fa-angle-right"></i>SẢN PHẨM</a></li>
+												  </ul>
+												</li>
+												<li><a href="#">ÐẠI LÝ</a></li>
+												<li><a href="tintuc.html">TIN TỨC</a></li>
+												<li><a href="tuyendung.html">TUYỂN DỤNG</a></li>
+												<li><a href="lienhe.html">LIÊN HỆ</a></li>
+											  </ul>
+											</nav> 
+											
+										  </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+            </div>
+        </div> <!-- End .main-nav -->
+    </header>
+    
+    <section class="slider">
+       <div id="slider-demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#slider-demo" data-slide-to="0" class="active"></li>
+            <li data-target="#slider-demo" data-slide-to="1"></li>
+            <li data-target="#slider-demo" data-slide-to="2"></li>
+          </ol>
+        
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="img/slider1.jpg" alt="slider1">
+              <div class="carousel-caption">
+              		<h3>Demo Slider</h3>
+              </div>
+            </div>
+            <div class="item">
+              <img src="img/slider5.jpg" alt="slider2">
+            </div>
+             <div class="item">
+              <img src="img/slider7.jpg" alt="slider3">
+            </div>
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#slider-demo" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+          </a>
+          <a class="right carousel-control" href="#slider-demo" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+          </a>
+       </div>
+    </section>
+    
+    <section class="content">
+    	<div class="container">
+        	<div class="promo">
+            	<div class="row">
+                	<div class="col-sm-4">
+                    	<a href="#">
+                        	<img src="img/promo4.jpg" alt="promo1">
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                    	<a href="#">
+                        	<img src="img/promo5.jpg" alt="promo2">
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                    	<a href="#">
+                        	<img src="img/promo6.jpg" alt="promo3">
+                        </a>
+                    </div>
+                </div>
+            </div><!-- End .promo -->
+            
+            <div class="product-lists">
+            	<div class="row">
+                	<div class="col-sm-12">
+                    	<h3 class="box-title">FETURED PRODUCT</h3>
+                        
+                    </div>
+                </div>
+                
+                <div class="row">
+                
+                	<div class="col-sm-3 product-item">
+                    	<div class="image">
+                        	<div class="wishlist">
+                            	<a href="#">
+                                	<i class="glyphicon glyphicon-heart"></i>
+                                </a>
+                            </div>
+                            <img src="img/image1.jpg" class="img-responsive" alt=""/>
+                            <div class="line"></div>
+                        </div>
+                        <div class="title">
+                        	<h2><a href="#">Flying ninja</a></h2>
+                        </div>
+                        <div class="info">
+                        	<div class="pull-left">
+                            	<del>
+                                	<span>$12</span>
+                                </del>
+                                <ins>
+                                	<span>$10</span>
+                                </ins>
+                            </div>
+                            <div class="pull-right">
+                            	<a href="#" class="btn-cart">
+                                    <i class="glyphicon glyphicon-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3 product-item">
+                    	<div class="image">
+                        	<div class="wishlist">
+                            	<a href="#">
+                                	<i class="glyphicon glyphicon-heart"></i>
+                                </a>
+                            </div>
+                            <img src="img/image4.jpg" class="img-responsive"  alt=""/>
+                            <div class="line"></div>
+                        </div>
+                        <div class="title">
+                        	<h2><a href="#">Flying mama</a></h2>
+                        </div>
+                        <div class="info">
+                        	<div class="pull-left">
+                            	<del>
+                                	<span>$12</span>
+                                </del>
+                                <ins>
+                                	<span>$10</span>
+                                </ins>
+                            </div>
+                            <div class="pull-right">
+                            <a href="#" class="btn-cart">
+                                    <i class="glyphicon glyphicon-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3 product-item">
+                    	<div class="image">
+                        	<div class="wishlist">
+                            	<a href="#">
+                                	<i class="glyphicon glyphicon-heart"></i>
+                                </a>
+                            </div>
+                            <img src="img/image3.jpg" class="img-responsive"  alt=""/>
+                            <div class="line"></div>
+                        </div>
+                        <div class="title">
+                        	<h2><a href="#">By Thanh</a></h2>
+                        </div>
+                        <div class="info">
+                        	<div class="pull-left">
+                            	<del>
+                                	<span>$12</span>
+                                </del>
+                                <ins>
+                                	<span>$10</span>
+                                </ins>
+                            </div>
+                            <div class="pull-right">
+                            	<a href="#" class="btn-cart">
+                                    <i class="glyphicon glyphicon-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3 product-item">
+                    	<div class="image">
+                        	<div class="wishlist">
+                            	<a href="#">
+                                	<i class="glyphicon glyphicon-heart"></i>
+                                </a>
+                            </div>
+                            <img src="img/image4.jpg" class="img-responsive"  alt=""/>
+                            <div class="line"></div>
+                        </div>
+                        <div class="title">
+                        	<h2><a href="#">Ronaldo</a></h2>
+                        </div>
+                        <div class="info">
+                        	<div class="pull-left">
+                            	<del>
+                                	<span>$12</span>
+                                </del>
+                                <ins>
+                                	<span>$10</span>
+                                </ins>
+                            </div>
+                            <div class="pull-right">
+                            	<a href="#" class="btn-cart">
+                                    <i class="glyphicon glyphicon-shopping-cart"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End .product-list -->
+            
+            <div class="about">
+            	
+            	<div class="row">
+                	<div class="col-sm-3 about-w">
+
+                        	<div class="form-about">
+                            	<h3>About Perfectum</h3>
+                                <a href="#" class="btn btn-default">Contact us</a>
+                            </div>
+                    </div>
+                    <div class="col-sm-9 shop-about">
+                        <p> Bootstrap easily and efficiently scales your websites and applications with a single code base, from phones to tablets to desktops with CSS media queries.
+                        </p>
+                        <p>Bootstrap is open source. It's hosted, developed, and maintained on GitHub. View the GitHub project
+						</p>
+                    </div>
+                </div>
+            </div><!-- End .about -->
+            
+            <div class="new-lists">
+            	<div class="row">
+                	<div class="col-sm-12">
+                    	<h3 class="box-title">NEWS</h3>
+               
+                    </div>
+                </div>
+            	<div class="row">
+                	<div class="col-sm-3 news-item">
+                    	<span class="date">
+                        	<i class="glyphicon glyphicon-time"></i>
+                            09/05/2014
+                        </span>
+                        <h2><a href="#">Praesent faucibus ligula</a></h2>
+                        <p class="excerpt">
+                        	With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.
+                        </p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div><!-- end .news-item-->
+                    
+                    <div class="col-sm-3 news-item">
+                    	<span class="date">
+                        	<i class="glyphicon glyphicon-time"></i>
+                            09/05/2014
+                        </span>
+                        <h2><a href="#">Etiam nulla nisi</a></h2>
+                        <p class="excerpt">
+                        With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.
+                        </p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div><!-- end .news-item-->
+                    
+                    <div class="col-sm-3 news-item">
+                    	<span class="date">
+                        	<i class="glyphicon glyphicon-time"></i>
+                            09/05/2014
+                        </span>
+                        <h2><a href="#">Lorem ipsum dolor sit</a></h2>
+                        <p class="excerpt">
+                        With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.
+                        </p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div><!-- end .news-item-->
+                    
+                    <div class="col-sm-3 news-item">
+                    	<span class="date">
+                        	<i class="glyphicon glyphicon-time"></i>
+                            09/05/2014
+                        </span>
+                        <h2><a href="#">Etiam eu urna eget dolor</a></h2>
+                        <p class="excerpt">
+                        With Bootstrap, you get extensive and beautiful documentation for common HTML elements, dozens of custom HTML and CSS components, and awesome jQuery plugins.
+                        </p>
+                        <a href="#" class="read-more">Read more</a>
+                    </div><!-- end .news-item-->
+                </div>
+            </div><!--end .new-list-->
+        </div><!-- End .container -->
+    </section><!-- End .content -->
+    
+    <footer class="footer">
+    	<div class="footer-custom">
+        	<div class="container">
+            	<div class="row">
+                    <div class="col-sm-3">
+                        <div class="title">
+                            <h3> About Us</h3>
+                            <div class="line"></div>
+                        </div>
+                        <div class="content">
+                        	<p>
+                            	Công Phượng được tung vào sân trong 10 phút cuối nhưng vẫn không thể giúp đội nhà tránh thất bại 0-2 ngay trên sân nhà trước đối thủ đang có phong độ cực cao này.
+                            </p>
+                            <p>
+                            	Đến phút 75, lại là cầu thủ này gieo sầu cho các CĐV của Mito Hollyhock với bàn nhân đôi cách biệt. Không còn gì để mất, HLV Takayuki Nishigaya quyết định tung Công Phượng vào sân ở phút 80. 
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-3 contact-us">
+                        <div class="title">
+                            <h3>Contact Us</h3>
+                            <div class="line"></div>
+                        </div>
+                        <div class="content">
+                        	<div class="item">
+                            	<div class="icon">
+                                	<i class="glyphicon glyphicon-map-marker"></i>
+                                </div>
+                                <div class="info">
+                                	59 - Binh An - An Binh - Phu Giao - Binh Duong.
+                                </div>
+                            </div>
+                            <div class="item">
+                            	<div class="icon">
+                                	<i class="glyphicon glyphicon-phone-alt"></i>
+                                </div>
+                                <div class="info">
+                                	+0166 928 1765
+                                </div>
+                            </div>
+                            <div class="item">
+                            	<div class="icon">
+                                	<i class="glyphicon glyphicon-envelope"></i>
+                                </div>
+                                <div class="info">
+                                	<a href="#">vuvanthanh150892@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                            	<div class="icon">
+                                	<i class="glyphicon glyphicon-user"></i>
+                                </div>
+                                <div class="info">
+                                 	<a href="#">Vu Van Thanh</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="title">
+                            <h3>Twitter</h3>
+                            <div class="line"></div>
+                        </div>
+                        <div class="content">
+                        	<div class="tweet-content">
+                            	Thất bại này khiến Mito Hollyhock chưa thể vươn lên nửa trên BXH với chỉ 26 điểm sau 23 trận đã đấu, hiện đứng ở vị trí thứ 16, xếp ngay dưới Yokohama FC, đội bóng mà Tuấn Anh đang đầu quân. 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="title">
+                            <h3>FaceBook</h3>
+                            <div class="line"></div>
+                        </div>
+                        <div class="content">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-links">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-sm-3">
+                    	<h3>Meta</h3>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                    	<h3>Infomation</h3>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                    	<h3>Support</h3>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                    	<h3>My Account</h3>
+                        <ul class="list-unstyled">
+                        	<li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                            <li><a href="#">Thanh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-sm-12">
+                    	<p>Copyright 2014 | Theme custom by V.V.Thanh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End .footer -->
+
+	<!-- jQuery -->
+   
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+     <script src="js/webslidemenu.js"></script>
+
+</body>
+
+</html>
